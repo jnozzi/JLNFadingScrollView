@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DEFEE4414A5090A00C25D6D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEFEE4314A5090A00C25D6D /* Cocoa.framework */; };
+		9DEFEE4E14A5090A00C25D6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DEFEE4C14A5090A00C25D6D /* InfoPlist.strings */; };
+		9DEFEE5014A5090A00C25D6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFEE4F14A5090A00C25D6D /* main.m */; };
+		9DEFEE5414A5090A00C25D6D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9DEFEE5214A5090A00C25D6D /* Credits.rtf */; };
+		9DEFEE5714A5090A00C25D6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFEE5614A5090A00C25D6D /* AppDelegate.m */; };
+		9DEFEE5A14A5090A00C25D6D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DEFEE5814A5090A00C25D6D /* MainMenu.xib */; };
+		9DEFEE6214A5095100C25D6D /* JLNFadingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFEE6114A5095100C25D6D /* JLNFadingScrollView.m */; };
+		9DEFEE6A14A52E7B00C25D6D /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9DEFEE6814A52E7B00C25D6D /* License.txt */; };
+		9DEFEE6B14A52E7B00C25D6D /* README in Resources */ = {isa = PBXBuildFile; fileRef = 9DEFEE6914A52E7B00C25D6D /* README */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DEFEE3F14A5090A00C25D6D /* JLNFadingScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLNFadingScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DEFEE4314A5090A00C25D6D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9DEFEE4614A5090A00C25D6D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9DEFEE4714A5090A00C25D6D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9DEFEE4814A5090A00C25D6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DEFEE4B14A5090A00C25D6D /* JLNFadingScrollView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JLNFadingScrollView-Info.plist"; sourceTree = "<group>"; };
+		9DEFEE4D14A5090A00C25D6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DEFEE4F14A5090A00C25D6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DEFEE5114A5090A00C25D6D /* JLNFadingScrollView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JLNFadingScrollView-Prefix.pch"; sourceTree = "<group>"; };
+		9DEFEE5314A5090A00C25D6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9DEFEE5514A5090A00C25D6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DEFEE5614A5090A00C25D6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DEFEE5914A5090A00C25D6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9DEFEE6014A5095100C25D6D /* JLNFadingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLNFadingScrollView.h; sourceTree = "<group>"; };
+		9DEFEE6114A5095100C25D6D /* JLNFadingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLNFadingScrollView.m; sourceTree = "<group>"; };
+		9DEFEE6814A52E7B00C25D6D /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		9DEFEE6914A52E7B00C25D6D /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DEFEE3C14A5090A00C25D6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEFEE4414A5090A00C25D6D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DEFEE3414A5090A00C25D6D = {
+			isa = PBXGroup;
+			children = (
+				9DEFEE6814A52E7B00C25D6D /* License.txt */,
+				9DEFEE6914A52E7B00C25D6D /* README */,
+				9DEFEE6014A5095100C25D6D /* JLNFadingScrollView.h */,
+				9DEFEE6114A5095100C25D6D /* JLNFadingScrollView.m */,
+				9DEFEE6314A52B8000C25D6D /* Demo App */,
+				9DEFEE4214A5090A00C25D6D /* Frameworks */,
+				9DEFEE4014A5090A00C25D6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DEFEE4014A5090A00C25D6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DEFEE3F14A5090A00C25D6D /* JLNFadingScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DEFEE4214A5090A00C25D6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DEFEE4314A5090A00C25D6D /* Cocoa.framework */,
+				9DEFEE4514A5090A00C25D6D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DEFEE4514A5090A00C25D6D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DEFEE4614A5090A00C25D6D /* AppKit.framework */,
+				9DEFEE4714A5090A00C25D6D /* CoreData.framework */,
+				9DEFEE4814A5090A00C25D6D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9DEFEE4A14A5090A00C25D6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DEFEE4B14A5090A00C25D6D /* JLNFadingScrollView-Info.plist */,
+				9DEFEE4C14A5090A00C25D6D /* InfoPlist.strings */,
+				9DEFEE4F14A5090A00C25D6D /* main.m */,
+				9DEFEE5114A5090A00C25D6D /* JLNFadingScrollView-Prefix.pch */,
+				9DEFEE5214A5090A00C25D6D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DEFEE6314A52B8000C25D6D /* Demo App */ = {
+			isa = PBXGroup;
+			children = (
+				9DEFEE5514A5090A00C25D6D /* AppDelegate.h */,
+				9DEFEE5614A5090A00C25D6D /* AppDelegate.m */,
+				9DEFEE5814A5090A00C25D6D /* MainMenu.xib */,
+				9DEFEE4A14A5090A00C25D6D /* Supporting Files */,
+			);
+			name = "Demo App";
+			path = JLNFadingScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DEFEE3E14A5090A00C25D6D /* JLNFadingScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DEFEE5D14A5090A00C25D6D /* Build configuration list for PBXNativeTarget "JLNFadingScrollView" */;
+			buildPhases = (
+				9DEFEE3B14A5090A00C25D6D /* Sources */,
+				9DEFEE3C14A5090A00C25D6D /* Frameworks */,
+				9DEFEE3D14A5090A00C25D6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLNFadingScrollView;
+			productName = JLNFadingScrollView;
+			productReference = 9DEFEE3F14A5090A00C25D6D /* JLNFadingScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DEFEE3614A5090A00C25D6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Joshua Nozzi";
+			};
+			buildConfigurationList = 9DEFEE3914A5090A00C25D6D /* Build configuration list for PBXProject "JLNFadingScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DEFEE3414A5090A00C25D6D;
+			productRefGroup = 9DEFEE4014A5090A00C25D6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DEFEE3E14A5090A00C25D6D /* JLNFadingScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DEFEE3D14A5090A00C25D6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEFEE4E14A5090A00C25D6D /* InfoPlist.strings in Resources */,
+				9DEFEE5414A5090A00C25D6D /* Credits.rtf in Resources */,
+				9DEFEE5A14A5090A00C25D6D /* MainMenu.xib in Resources */,
+				9DEFEE6A14A52E7B00C25D6D /* License.txt in Resources */,
+				9DEFEE6B14A52E7B00C25D6D /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DEFEE3B14A5090A00C25D6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEFEE5014A5090A00C25D6D /* main.m in Sources */,
+				9DEFEE5714A5090A00C25D6D /* AppDelegate.m in Sources */,
+				9DEFEE6214A5095100C25D6D /* JLNFadingScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DEFEE4C14A5090A00C25D6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DEFEE4D14A5090A00C25D6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9DEFEE5214A5090A00C25D6D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DEFEE5314A5090A00C25D6D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9DEFEE5814A5090A00C25D6D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DEFEE5914A5090A00C25D6D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DEFEE5B14A5090A00C25D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9DEFEE5C14A5090A00C25D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9DEFEE5E14A5090A00C25D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JLNFadingScrollView/JLNFadingScrollView-Prefix.pch";
+				INFOPLIST_FILE = "JLNFadingScrollView/JLNFadingScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DEFEE5F14A5090A00C25D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JLNFadingScrollView/JLNFadingScrollView-Prefix.pch";
+				INFOPLIST_FILE = "JLNFadingScrollView/JLNFadingScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DEFEE3914A5090A00C25D6D /* Build configuration list for PBXProject "JLNFadingScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEFEE5B14A5090A00C25D6D /* Debug */,
+				9DEFEE5C14A5090A00C25D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DEFEE5D14A5090A00C25D6D /* Build configuration list for PBXNativeTarget "JLNFadingScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEFEE5E14A5090A00C25D6D /* Debug */,
+				9DEFEE5F14A5090A00C25D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DEFEE3614A5090A00C25D6D /* Project object */;
+}

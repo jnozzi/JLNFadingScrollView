@@ -1,0 +1,37 @@
+JLNFadingScrollView
+Written by Joshua Nozzi
+http://joshua.nozzi.name
+========================
+
+
+What is JLNFadingScrollView?
+----------------------------
+
+JLNFadingScrollView is a drop-in subclass of NSScrollView that adds a top and bottom fade of scrolled content (a la Dictionary.app's left-hand term source list). You can configure its fade color (usually a gray/black for shadow or the scroll view's background color for 'fade-to-nothing') and the fade height (small for shadow look, very large for iPhone-style-rolling-wheel effect).
+
+
+What platforms does it support?
+-------------------------------
+
+Requires 10.5 and up, because that's when NSGradient was introduced. You could use other gradient techniques to support older OS versions but really ... why bother?
+
+
+What are the licensing requirements?
+------------------------------------
+
+See the license document (License.txt) that is included with the source code. It is free to use but requires attribution. Feel free to contact me at joshua@nozzi.name with any licensing questions.
+
+
+How do I use it in my project?
+------------------------------
+
+1 - Copy JLNFadingScrollView.m and JLNFadingScrollView.h into your project.
+2 - In Interface Builder, set the class name of the desired NSScrollView to JLNFadingScrollView.
+3 - Include JLNFadingScrollView.h into any file in which you want to communicate with the scroll view (to configure its fade color/height).
+4 - Call -setFadeColor: and/or -setFadeHeight: to configure to taste
+
+
+How can I reach you?
+--------------------
+
+You can e-mail me at joshua@nozzi.name. I'm happy to answer most questions about this source code but am not willing to "hold your hand" or debug your code. It's straightforward to use if you are familiar with Cocoa and take a few moments to study the source. Please do your homework first. Questions sent to me that make it obvious the sender didn't do their homework will be ignored.
