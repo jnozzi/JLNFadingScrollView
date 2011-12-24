@@ -28,7 +28,15 @@ How do I use it in my project?
 1 - Copy JLNFadingScrollView.m and JLNFadingScrollView.h into your project.
 2 - In Interface Builder, set the class name of the desired NSScrollView to JLNFadingScrollView.
 3 - Include JLNFadingScrollView.h into any file in which you want to communicate with the scroll view (to configure its fade color/height).
-4 - Call -setFadeColor: and/or -setFadeHeight: to configure to taste
+4 - Call -setFadeColor: and/or -setFadeHeight: to configure to taste.
+
+
+What else do I need to know?
+----------------------------
+
+1 - This subclass does not get along with NSClipView's copy-on-scroll behavior and sets it to NO. If you turn it back on, you'll get drawing artifacts. 
+2 - The top fade cannot be seen when table/outline column headers are enabled. It would look weird anyway...
+3 - The fades auto-adjust their size depending on the chosen border type. Overridden border drawing or newly added border types may not adjust correctly.
 
 
 How can I reach you?
