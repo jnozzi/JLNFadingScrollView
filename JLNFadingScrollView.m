@@ -67,7 +67,7 @@
 		_topFadeView = nil;
 		_bottomFadeView = nil;
 		_fadeHeight = DEFAULTFADEHEIGHT;
-		_fadeColor = [[NSColor blackColor] retain];
+		_fadeColor = [NSColor blackColor];
 		
 		// Kill copy on scroll
 		[[self contentView] setCopiesOnScroll:NO];
@@ -77,34 +77,16 @@
 	return self;
 }
 
-- (void)dealloc
-{
-	
-	// iVars
-	[_topFadeView release];
-	_topFadeView = nil;
-	[_bottomFadeView release];
-	_bottomFadeView = nil;
-	[_fadeColor release];
-	_fadeColor = nil;
-	
-	[super dealloc];
-	
-}
-
-
 #pragma mark Nib Loading
 
 - (void)awakeFromNib
 {
-	
 	// Kill copy on scroll
 	[[self contentView] setCopiesOnScroll:NO];
 	
 	// Initial state
 	_fadeHeight = DEFAULTFADEHEIGHT;
-	_fadeColor = [[NSColor blackColor] retain];
-	
+	_fadeColor = [NSColor blackColor];
 }
 
 
@@ -137,7 +119,6 @@
 	{
 		
 		// Swap the colors
-		[_fadeColor release];
 		_fadeColor = [newColor copy];
 		
 		// Update the fade views
@@ -225,19 +206,6 @@
 
 @implementation JLNFadeView
 
-
-#pragma mark Constructors / Destructors
-
-- (void)dealloc
-{
-	[_fadeColor release];
-	_fadeColor = nil;
-	[_fadient release];
-	_fadient = nil;
-	[super dealloc];
-}
-
-
 #pragma mark Accessors
 
 @synthesize topDown = _topDown;
@@ -255,12 +223,7 @@
 	{
 		
 		// Swap the color
-		[_fadeColor release];
 		_fadeColor = [newColor copy];
-		
-		// Kill the current gradient
-		[_fadient release];
-		_fadient = nil;
 		
 		// Flag for display
 		[self setNeedsDisplay:YES];
@@ -277,7 +240,7 @@
 	
 	// Make sure we have a sane fade color and gradient
 	if (!_fadeColor)
-		_fadeColor = [[NSColor blackColor] retain];
+		_fadeColor = [NSColor blackColor];
 	if (!_fadient)
 		_fadient = [[NSGradient alloc] initWithColors:[NSArray arrayWithObjects:
 													   _fadeColor, 
